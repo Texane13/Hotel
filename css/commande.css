@@ -1,0 +1,99 @@
+/* icons */
+@import url("./icon.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.before {
+  position: fixed;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #333;
+  padding: 1rem;
+}
+
+#wrapper {
+  padding: 2rem;
+}
+
+.col-lg-12 {
+  padding-top: 2rem;
+}
+
+.col-lg-12 h2 {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.col-lg-12 h2 span {
+  color: maroon;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.commande {
+  text-align: center;
+}
+
+.del {
+  margin-left: 35%;
+  text-decoration: none;
+  color: white;
+  background-color: maroon;
+  border-radius: 6px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.num {
+  margin-left: 3rem;
+  font-size: 1.5rem;
+}
+
+.table-responsive {
+  width: 100%;
+}
+
+.table-bordered {
+  width: 40%;
+  border-bottom: 2px solid silver;
+  overflow-x: auto;
+  border: 1px solid#ddd;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table-bordered thead tr th {
+  border: 1px solid #ddd;
+  border-top: 0;
+  border-bottom-width: 2px;
+  vertical-align: bottom;
+  padding: 8px;
+  line-height: 1.42857143;
+}
+
+.table-bordered tbody tr {
+  background-color: #f9f9f9;
+}
+
+.table-bordered tbody tr td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+}
